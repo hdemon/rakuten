@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require "rakuten"
+
+books = Rakuten::BooksTotal.new(appId: xxx)
+p books.fetch title: "這い寄れ！ニャル子さん"
+```
 
 ## Contributing
 
