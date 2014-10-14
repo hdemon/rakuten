@@ -1,7 +1,6 @@
 require "rakuten/version"
 require "faraday"
 require 'faraday_middleware'
-require "pry"
 
 module Rakuten
   SLEEP_SECOND_BETWEEN_REQUEST = 1 # see: http://webservice.faq.rakuten.co.jp/app/answers/detail/a_id/14261
